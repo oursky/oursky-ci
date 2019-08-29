@@ -6,6 +6,7 @@ test:one:
   tags:
     - docker
   script:
+    - echo "this is base"
     - echo "one1"
     - echo "one2"
     - echo "one3"
