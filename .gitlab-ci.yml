@@ -6,11 +6,27 @@ test:one:
   tags:
     - docker
   script:
-    - echo "one"
+    - echo "one1"
+    - echo "one2"
+    - echo "one3"
+    - echo "one4"
+    - echo "one5"
+    - echo "one6"
+    - echo "one7"
+    - echo "one8"
+    - echo "one9"
 
 test:two:
   stage: test
   tags:
     - docker
   script:
-    - echo "two"
+    - echo "two1"
+    - echo "two2"
+    - echo "two3"
+    - echo "two4"
+    - echo "two5"
+    - echo "two6"
+    - echo "two7"
+    - echo "two8"
+    - echo "two9"
