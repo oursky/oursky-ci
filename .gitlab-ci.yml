@@ -1,0 +1,16 @@
+stages:
+  - test
+
+test:one:
+  stage: test
+  tags:
+    - docker
+  script:
+    - echo "one"
+
+test:two:
+  stage: test
+  tags:
+    - docker
+  script:
+    - echo "two"
