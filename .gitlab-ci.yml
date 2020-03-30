@@ -17,6 +17,7 @@ test:one:
     - echo "one8"
     - echo "one9"
     - echo "one10"
+    - echo "one11"
 
 test:two:
   stage: test
