@@ -4,7 +4,7 @@ stages:
 test:one:
   stage: test
   tags:
-    - docker
+    - aws-small
   script:
     - echo "this is base"
     - echo "one1"
@@ -16,11 +16,12 @@ test:one:
     - echo "one7"
     - echo "one8"
     - echo "one9"
+    - echo "one10"
 
 test:two:
   stage: test
   tags:
-    - docker
+    - aws-small
   script:
     - echo "two1"
     - echo "two2"
